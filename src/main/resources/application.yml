@@ -1,0 +1,14 @@
+guru:
+  username: John
+  password: somepass
+  dburl: asdadfadd
+  jms:
+    username: JohnJms
+    password: somejmspass
+    dburl: jmsurl
+---
+spring:
+  profiles: de
+guru:
+  jms:
+    username: FritzJms
